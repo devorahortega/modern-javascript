@@ -13,3 +13,7 @@ console.log(dayStart);
 console.log("Hours Until the End of the Day:");
 var dayEnd = moment().endOf("day").fromNow();
 console.log(dayEnd);
+
+var person = "Mary";
+
+console.log(`Hello ${person}`);

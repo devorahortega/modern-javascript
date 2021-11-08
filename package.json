@@ -1,5 +1,26 @@
 {
+  "name": "modern-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --open",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actualize-chi-2021-08/modern-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actualize-chi-2021-08/modern-javascript/issues"
+  },
+  "homepage": "https://github.com/actualize-chi-2021-08/modern-javascript#readme",
   "dependencies": {
+    "mathjs": "^10.0.0",
     "moment": "^2.29.1"
   },
   "devDependencies": {
@@ -7,6 +28,7 @@
     "@babel/preset-env": "^7.16.0",
     "babel-loader": "^8.2.3",
     "webpack": "^5.62.1",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
   }
 }
