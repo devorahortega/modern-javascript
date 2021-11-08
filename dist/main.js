@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("console.log(\"This is the Javascript!\");\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar date = moment().format(\"MMMM Do YYYY, h:mm:ss a\");\nconsole.log(date);\n\nvar dayStart = moment().startOf(\"day\").fromNow();\nconsole.log(dayStart);\n\nvar dayEnd = moment().endOf(\"day\").fromNow();\nconsole.log(dayEnd);\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("console.log(\"This is the Javascript!\");\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"Today's Date:\");\nvar date = moment().format(\"MMMM Do YYYY, h:mm:ss a\");\nconsole.log(date);\n\nconsole.log(\"Hours Since the Day Started:\");\nvar dayStart = moment().startOf(\"day\").fromNow();\nconsole.log(dayStart);\n\nconsole.log(\"Hours Until the End of the Day:\");\nvar dayEnd = moment().endOf(\"day\").fromNow();\nconsole.log(dayEnd);\n\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
